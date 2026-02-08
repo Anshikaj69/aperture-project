@@ -8,7 +8,7 @@
 
 <body>
     <div class="main-container">
-        <button style="border: none; margin-left: 40px; padding: 10px; margin-bottom: 30px;">Learn Devops</button>
+        <button style="border: none; margin-left: 40px; padding: 10px; margin-bottom: 30px; cursor: pointer;" onclick="handleClick()">Learn Devops</button>
         <div class="cloud-image" style="margin-left: 40px;">
             <img src="img/successCloudNew.svg" />
         </div>
@@ -55,5 +55,9 @@
         </div>
     </div>
 </body>
-
+<script>
+    function handleClick(){
+            document.getElementById("btn1").innerHTML = "Button Clicked (Kane)";
+    }
+</script>
 </html>
