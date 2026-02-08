@@ -8,7 +8,11 @@
 
 <body>
     <div class="main-container">
+<<<<<<< HEAD
         <button style="border: none; margin-left: 40px; padding: 10px; margin-bottom: 30px; cursor: pointer;" id="btn1" onclick="handleClick()" >Learn Devops</button>
+=======
+        <button style="border: none; margin-left: 40px; padding: 10px; margin-bottom: 30px; cursor: pointer;" onclick="handleClick()">Learn Devops</button>
+>>>>>>> kane
         <div class="cloud-image" style="margin-left: 40px;">
             <img src="img/successCloudNew.svg" />
         </div>
@@ -55,9 +59,15 @@
         </div>
     </div>
 </body>
+<<<<<<< HEAD
+<script >
+    function handleClick(){
+            document.getElementById("btn1").innerHTML = "Button Clicked (harry)";
+=======
 <script>
     function handleClick(){
-            document.getElementById("btn1").innerHTML = "Button Clicked (harry & kane)";
+            document.getElementById("btn1").innerHTML = "Button Clicked (Kane)";
+>>>>>>> kane
     }
 </script>
 </html>
